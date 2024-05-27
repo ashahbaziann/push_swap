@@ -60,7 +60,7 @@ void	ft_sort_main(t_stack **a, t_stack **b, int n, int *arr)
 			ft_ra(b, 2);
 			i++;
 		}
-		else if ((*a)-> num <= arr[i] + j)
+		else if ((*a)-> num <= arr[i + j])
 		{
 			ft_pa(b, a, 2);
 			i++;
